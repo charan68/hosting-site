@@ -1,0 +1,154 @@
+/* ANUMALLA-SAI-CHARAN */
+/*----------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*content-styling*/
+
+html {
+    box-sizing : border-box;
+    font-family: 'Open-Sans' , sans-serif;
+}
+body{
+    background-color: #60a9ff;
+    
+    
+}
+nav{
+    width : 20%;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: white;
+    font-weight: bold;
+    
+  }
+  nav a{
+    color:black;
+  }
+  nav div:hover{
+    color: grey;
+  }
+  nav a:hover{
+    color: grey;
+  }
+  #nav2{
+    display: flex;
+    justify-content: end;
+    
+    margin-top: -3em;
+    color: white;
+    
+  }
+  #nav2 a{
+    color:rgb(255, 255, 255);
+  }
+  #nav2 a:hover{
+    color: grey;
+  }
+  #nav2 div{
+    padding-left: 1.5em;
+    padding: 1em 15px;
+    background-color: #252525;
+  }
+  #nav2 div:hover{
+    color: grey;
+  }
+#formm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+h1{
+    display: flex;
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 40px;
+    justify-content: center;
+    color: white;
+    font-family: 'Unbounded', cursive;
+}
+
+form{
+    font-family: 'Open-Sans' , sans-serif;
+    color: white;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+    
+}
+
+form input{
+    margin: 5px 0px 15px 0px;
+    background: rgba(224, 255, 255, 0.375);
+    
+    
+    border: 2px solid #252525;
+    border-radius: 5px;
+}
+form button{
+    background: none;
+    color: white;
+    border: 2px solid white;
+    width: 5em;
+    border-radius: 15px;
+    padding: 0.3em;
+transition: all 0.5s;
+
+}
+form button:hover{
+    color: black;
+    background: white;
+}
+
+
+
+
