@@ -47,21 +47,23 @@ table {
 
 /* content styling */
 
+/* #6C63FF - illustrations */
+
 html {
     box-sizing : border-box;
     font-family: 'Open-Sans' , sans-serif;
 }
 body{
-    background: rgb(0,48,125);
-background: linear-gradient(90deg, rgba(0,48,125,1) 0%, rgba(28,83,163,1) 30%, rgba(96,169,255,1) 100%);
+  background: #60a9ff;
+/* background: linear-gradient(90deg, rgba(0,48,125,1) 0%, rgba(28,83,163,1) 30%, rgba(96,169,255,1) 100%); */
     
     
 }
-nav{
+/* nav{
     width : 20%;
     color: black;
     text-align: center;
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: space-between;
     padding: 1em;
@@ -70,35 +72,48 @@ nav{
     
   }
   nav a{
+    
     color:black;
+  }
+  nav div{
+    display: none;
+    width:10%;
   }
   nav div:hover{
     color: grey;
   }
   nav a:hover{
     color: grey;
-  }
+  } */
   #nav2{
     display: flex;
     justify-content: end;
-    
-    margin-top: -3em;
+    align-items: flex-start;
+    margin-top: -3.5em;
     color: white;
     
   }
   #nav2 a{
     color:rgb(255, 255, 255);
+    transition: all 0.5s;
   }
   #nav2 a:hover{
     color: grey;
   }
   #nav2 div{
     padding-left: 1.5em;
-    padding: 1em 15px;
+    padding: 0.7em 15px;
+    margin-left: 0.5em;
     background-color: #252525;
+    transition: all 0.5s;
   }
   #nav2 div:hover{
     color: grey;
+    border-radius: 20px 20px 20px 20px;
+  }
+  #new{
+    padding: 1em;
+    width: 25px;
   }
 h1{
     display: flex;
@@ -113,13 +128,16 @@ h1{
   
 }
 
-
+#imgg{
+  display: flex;
+  justify-content: space-around;
+}
  
 
-#imgg{
-  width: 95%;
+#imgg img {
+  width: 90%;
   display: flex;
-  gap: 3em;
+  object-fit: cover;
   justify-content: center;
  
   border-radius: 10px;
@@ -128,13 +146,14 @@ h1{
 #imgg > img{
   border-radius: 15px;
   border: 3px solid white;
-  border-left: none;
-  border-top: none;
+  /* border-left: none;
+  border-top: none; */
 }
 #main_para{
   display: flex;
   justify-content: center;
   width: 100%;
+
   
 }
 #main_para p a:hover{
@@ -143,18 +162,31 @@ h1{
 }
 p{
   text-align: center;
-  width: 60%;
+  width: 80%;
   padding: 3% 7.3%;
   
   background-color: white;
   border-radius: 6px;
+}
+.plans{
+  display: flex;
+    justify-content : flex-start;
+    color: white;
+    margin: 2em 1em 0.5em 1em;
+    
+    font-family: 'Unbounded' , sans-serif;
+    word-spacing:0.2em;
+    font-weight: bolder;
+    font-size: 25px;
+    border-bottom: 1px solid white;
+
 }
 #themain{
     
     display: flex;
     justify-content: center;
     align-items:center;
-    height:100vh;
+    padding: 0.9em;
     
 }
 
@@ -169,9 +201,10 @@ p{
     display: flex;
     flex-direction: column;
     text-align:center;
-    align-self: end;
+    align-self: flex-end;
     text-transform: uppercase;
     padding-bottom: 3em;
+    
 }
 
 .pricing-plan{
@@ -263,6 +296,60 @@ p{
 
 
 @media (min-width:900px){
+
+  nav{
+    
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    padding-right: 2.4em;
+    background-color: white;
+    font-weight: bold;
+    
+  }
+  nav a{
+    
+    color:black;
+  }
+  nav div{
+    display: flex;
+    
+  }
+  nav div:hover{
+    color: grey;
+  }
+  nav a:hover{
+    color: grey;
+  }
+  #nav2{
+    display: flex;
+    justify-content: end;
+    
+    margin-top: -3em;
+    color: white;
+    
+  }
+  #nav2 a{
+    color:rgb(255, 255, 255);
+  }
+  #nav2 a:hover{
+    color: grey;
+  }
+  #nav2 div{
+    padding-left: 1.5em;
+    padding: 1em 15px;
+    background-color: #252525;
+  }
+  #nav2 div:hover{
+    color: grey;
+  }
+
+ nav{
+  display: flex;
+ }
     .panel{
         flex-direction: row;
     }
