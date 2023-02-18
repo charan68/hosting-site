@@ -52,8 +52,9 @@ html {
     font-family: 'Open-Sans' , sans-serif;
 }
 body{
-    background: rgb(0,48,125);
-    background: linear-gradient(90deg, rgba(0,48,125,1) 0%, rgba(28,83,163,1) 30%, rgba(96,169,255,1) 100%);
+  /* background: rgb(0,48,125);
+  background: linear-gradient(90deg, rgba(0,48,125,1) 0%, rgba(28,83,163,1) 30%, rgba(96,169,255,1) 100%); */
+  background: #60a9ff;
     
     
 }
