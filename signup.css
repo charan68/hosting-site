@@ -85,8 +85,9 @@ body{
     display: flex;
     justify-content: end;
     align-items: flex-start;
-    margin-top: -3.5em;
+    margin-top: -3.25em;
     color: white;
+    margin-right: 1em;
     
   }
   #nav2 a{
@@ -102,10 +103,11 @@ body{
     margin-left: 0.5em;
     background-color: #252525;
     transition: all 0.5s;
+    border-radius: 10px;
   }
   #nav2 div:hover{
     color: grey;
-    border-radius: 20px 20px 20px 20px;
+    
   }
   #new{
     padding: 1em;
@@ -158,25 +160,12 @@ transition: all 0.5s;
 
 }
 form button:hover{
+    
     color: black;
     background: white;
 }
 
-#foot{
-  background-color: rgba(0, 0, 0, 0.4);
-  color: white;
-  display: flex;
-  
-  justify-content:end;
-  margin: 4em 0px 0px 0px;
-  padding: 3em;
-  
 
-}
-
-#foot span:hover{
-  text-decoration: underline white;
-}
 
 
 
