@@ -59,7 +59,7 @@ body{
     
     
 }
-/* nav{
+nav{
     width : 20%;
     color: black;
     text-align: center;
@@ -71,6 +71,7 @@ body{
     font-weight: bold;
     
   }
+  /*
   nav a{
     
     color:black;
@@ -89,9 +90,9 @@ body{
     display: flex;
     justify-content: end;
     align-items: flex-start;
-    margin-top: -3.5em;
+    margin-top: -3.25em;
     color: white;
-    
+    margin-right: 1em;
   }
   #nav2 a{
     color:rgb(255, 255, 255);
@@ -105,11 +106,12 @@ body{
     padding: 0.7em 15px;
     margin-left: 0.5em;
     background-color: #252525;
+    border-radius: 10px;
     transition: all 0.5s;
   }
   #nav2 div:hover{
     color: grey;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 10px;
   }
   #new{
     padding: 1em;
@@ -162,7 +164,7 @@ h1{
 }
 p{
   text-align: center;
-  width: 80%;
+  width: 76.5%;
   padding: 3% 7.3%;
   
   background-color: white;
@@ -282,9 +284,9 @@ p{
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     display: flex;
-    
+    font-size: small;
     justify-content: space-evenly;
-    margin: 4em 0px 0px 0px;
+    margin: 0em 0px 0px 0px;
     padding: 3em;
     
 
@@ -293,10 +295,26 @@ p{
 #foot span:hover{
     text-decoration: underline white;
 }
+marquee{
+  font-size: small;
+  color: rgba(255, 255, 255, 0.741);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0.5em 0px;
+  margin-top: 2em;
+}
 
 
 @media (min-width:900px){
-
+  marquee{
+    font-size: large;
+    color: rgba(255, 255, 255, 0.741);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5em 0px;
+    margin-top: 2em;
+  }
+#new{
+  display: none;
+}
   nav{
     
     color: black;
@@ -308,11 +326,16 @@ p{
     padding-right: 2.4em;
     background-color: white;
     font-weight: bold;
+    border-radius: 0 0 20px 0;
     
   }
   nav a{
     
     color:black;
+  }
+  #foot{
+    margin-top: 0em;
+    font-size: large;
   }
   nav div{
     display: flex;
@@ -339,8 +362,8 @@ p{
     color: grey;
   }
   #nav2 div{
-    padding-left: 1.5em;
-    padding: 1em 15px;
+    padding-left: 0em;
+    padding: 1em ;
     background-color: #252525;
   }
   #nav2 div:hover{
